@@ -58,7 +58,7 @@ package org.Ex2;
 
     //деление
     public void split(int intNum1, int intNum2){
-        int intResult = intNum1/intNum2;
+        double intResult = 1.0*intNum1/intNum2;
         System.out.println(intResult);
     }
     public void split(double doubleNum1, double doubleNum2){
