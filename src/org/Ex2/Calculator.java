@@ -17,7 +17,8 @@ package org.Ex2;
     }
     public void sum(double doubleNum1, double doubleNum2){
         double doubleResult = doubleNum1+doubleNum2;
-        System.out.println(doubleResult);
+        String lResult = String.format("%.2f", doubleResult);
+        System.out.println(lResult);
     }
     public void sum(long longNum1, long longNum2){
         double longResult = longNum1+longNum2;
@@ -31,7 +32,8 @@ package org.Ex2;
     }
     public void minus(double doubleNum1, double doubleNum2){
         double doubleResult = doubleNum1-doubleNum2;
-        System.out.println(doubleResult);
+        String lResult = String.format("%.2f", doubleResult);
+        System.out.println(lResult);
     }
     public void minus(long longNum1, long longNum2){
         double longResult = longNum1-longNum2;
@@ -46,7 +48,8 @@ package org.Ex2;
     }
     public void mult(double doubleNum1, double doubleNum2){
         double doubleResult = doubleNum1*doubleNum2;
-        System.out.println(doubleResult);
+        String lResult = String.format("%.2f", doubleResult);
+        System.out.println(lResult);
     }
     public void mult(long longNum1, long longNum2){
         double longResult = longNum1*longNum2;
@@ -60,7 +63,8 @@ package org.Ex2;
     }
     public void split(double doubleNum1, double doubleNum2){
         double doubleResult = doubleNum1/doubleNum2;
-        System.out.println(doubleResult);
+        String lResult = String.format("%.2f", doubleResult);
+        System.out.println(lResult);
     }
     public void split(long longNum1, long longNum2){
         double longResult = longNum1/longNum2;
