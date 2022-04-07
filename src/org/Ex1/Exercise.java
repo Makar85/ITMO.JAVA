@@ -24,7 +24,7 @@ public class Exercise {
         System.out.println("-----------3-----------");
 
         int number = 10500;
-        double result = (number / 10) / 10;
+        double result = (number / 10d) / 10;
         System.out.println(result);
 
         System.out.println("-----------4-----------");
@@ -61,13 +61,6 @@ public class Exercise {
         {
             System.out.println("Выход за пределы диапазона");
         }
-
-
-
-
-
-
-
 
     }
 }
