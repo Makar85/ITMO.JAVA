@@ -53,11 +53,11 @@ public class Exercise {
         if (b1%2 !=0){
             System.out.println(b1 + " Нечетное число");
         }
-        else if (b1%2 ==0 && b1 < 100)
+        else if (b1 < 100)
         {
             System.out.println(b1 + " Четное число");
         }
-        else if (b1%2 ==0 && b1 > 100)
+        else if (b1 > 100)
         {
             System.out.println("Выход за пределы диапазона");
         }
