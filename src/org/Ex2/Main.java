@@ -15,13 +15,13 @@ public class Main {
         {
             calculator.intNum1 = scanNum1.nextInt();
         }
-        else if (scanNum1.hasNextDouble())
-        {
-            calculator.doubleNum1 = scanNum1.nextDouble();
-        }
         else if (scanNum1.hasNextLong())
         {
             calculator.longNum1 = scanNum1.nextLong();
+        }
+        else if (scanNum1.hasNextDouble())
+        {
+            calculator.doubleNum1 = scanNum1.nextDouble();
         }
 
         //проверка ввода данных второго числа
@@ -31,14 +31,15 @@ public class Main {
         {
             calculator.intNum2 = scanNum2.nextInt();
         }
-        else if (scanNum2.hasNextDouble())
-        {
-            calculator.doubleNum2 = scanNum2.nextDouble();
-        }
         else if (scanNum2.hasNextLong())
         {
             calculator.longNum2 = scanNum2.nextLong();
         }
+        else if (scanNum2.hasNextDouble())
+        {
+            calculator.doubleNum2 = scanNum2.nextDouble();
+        }
+
         System.out.println("Выберете действие");
         System.out.println("1 - Сложение");
         System.out.println("2 - Вычитание");

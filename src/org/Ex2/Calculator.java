@@ -67,8 +67,8 @@ package org.Ex2;
         System.out.println(lResult);
     }
     public void split(long longNum1, long longNum2){
-        long longResult = longNum1/longNum2;
-        System.out.println(longResult);
+        double result = 1.0*longNum1/longNum2;
+        System.out.println(result);
     }
 
 
