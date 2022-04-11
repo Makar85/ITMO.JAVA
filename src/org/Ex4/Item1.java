@@ -110,10 +110,10 @@ public class Item1 {
 
         System.out.println(Arrays.toString(array2));
         for (int i = 0; i < array2.length; i++) {
-            if (array2[i] == 1 || array2[i] == 3) {
+                if (array2[i] == 1 || array2[i] == 3) {
 
-                System.out.println("Массив содержит число: " + array2[i] + " под индексом: " + i);
+                    System.out.println("Массив содержит число: " + array2[i] + " под индексом: " + i);
+                }
             }
         }
-    }
 }
