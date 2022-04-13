@@ -5,6 +5,7 @@ public class BankEmploee extends Human{
 
     public BankEmploee(String name, String lastName, String bankName) {
         super(name, lastName);
+        this.bankName = bankName;
     }
 
     public String getBankName() {

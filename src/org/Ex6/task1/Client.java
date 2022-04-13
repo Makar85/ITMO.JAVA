@@ -6,17 +6,18 @@ public class Client extends Human {
 
     public Client(String name, String lastName, String bankName) {
         super(name, lastName);
+        this.bankName = bankName;
     }
 
     public String getBankName() {
-        return bankName;
+         return bankName;
     }
 
     @Override
     void getInfo() {
         System.out.println("Имя: "+ this.getName());
         System.out.println("Фамилия: "+ this.getLastName());
-        System.out.println("Название банка: "+ this.getBankName());
+        System.out.println("Название банка: " + this.getBankName());
     }
 
     @Override
