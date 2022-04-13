@@ -20,7 +20,7 @@ public class StringClass {
         return longest;
     }
     //2.Написать метод, который проверяет является ли слово палиндромом.
-    public static void isPolindrome (String string) {
+    public static void isPalindrome (String string) {
         String s = new StringBuilder(string).reverse().toString();
         String s1 = s.toLowerCase();
         System.out.println(s1);
@@ -52,7 +52,7 @@ public class StringClass {
     //5.Напишите метод, который инвертирует слова в строке. Предполагается,
     // что в строке нет знаков препинания, и слова разделены пробелами.
 
-    public static void isInvert (String string){
+    public static void invert (String string){
         StringBuilder builder = new StringBuilder();
         String[] stringArray = string.split(" ");
         for (int i = 0; i < stringArray.length; i++) {

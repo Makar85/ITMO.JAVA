@@ -85,20 +85,19 @@ public class Item1 {
     //Напишите программу, чтобы проверить, появляется ли число 3 как первый или последний элемент массива целых чисел.
     // Длина массива должна быть больше или равна двум
 
-    public void arrays1(){
+    public void arrays1(int[] array1){
 
       Boolean arrayHasFirst3 = false;
 
-    int[] array1 = new int[]{4,7,11,13,15,3};
-    System.out.println(Arrays.toString(array1));
+
 
         if (array1.length >=2){
             if (array1[0]==3 || array1[array1.length-1]==3) {
                 arrayHasFirst3=true;
-                System.out.println(arrayHasFirst3);
+                System.out.print(arrayHasFirst3);
             }
             else
-                System.out.println(arrayHasFirst3);
+                System.out.print(arrayHasFirst3);
 
         }
     }

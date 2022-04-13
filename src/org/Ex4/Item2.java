@@ -61,7 +61,7 @@ public class Item2 {
                    break;
                }
             }
-            if(flag==true){
+            if(flag){
                 System.out.println(array[i]+" ");
                 break;
             }
