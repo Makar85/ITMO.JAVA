@@ -8,17 +8,20 @@ import java.util.Scanner;
 public class JavaIO {
 
     //1.Написать метод, который читает текстовый файл и возвращает его в виде списка строк.
-    public static void fileReaderMethod(File file) {
+    public static List<String> fileReaderMethod(File file) {
+        List<String> stringList = new ArrayList<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String input = null;
             while ((input = reader.readLine()) != null) {
-                System.out.println(input);
+                stringList.add(input);
             }
 
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }
+        System.out.println(stringList+"\n");
+        return stringList;
     }
 
     //2.Написать метод, который записывает в файл строку, переданную параметром.
@@ -115,7 +118,7 @@ public class JavaIO {
         }
         try(BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
                 for(String str: stringList){
-                    writer.append(str.replaceAll("\\W", "\\$") + "\n");
+                    writer.append(str.replaceAll("\\W", "\\$"));
                 }
             }
          catch (IOException e) {

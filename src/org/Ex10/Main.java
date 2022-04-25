@@ -9,14 +9,14 @@ public class Main {
         File file2 = new File("files/text2.txt");
         File file4 = new File("files/text4.txt");
         //item 1
-//        JavaIO.fileReaderMethod(file);
+        JavaIO.fileReaderMethod(file);
         //item 2
 //        String string = "Привет как дела?";
 //        JavaIO.fileWriterMethod(Arrays.asList("Я", "изучаю", "Java"));
         //item 3
 //        JavaIO.mergeFiles(file,file2);
         //item 4
-        JavaIO.changeAllNotSymbolChars(file4);
+//        JavaIO.changeAllNotSymbolChars(file4);
 
 
 
